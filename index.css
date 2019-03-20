@@ -1,0 +1,82 @@
+body {
+    font-family: MaisonNeue, -apple-system, system-ui, Helvetica, Arial, sans-serif;
+    background: #E8EDFB;
+    /* background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAUklEQVR42u3VMQoAIBADQf8Pgj+OD9hG2CtONJB2ymQkKe0HbwAP0xucDiQWARITIDEBEnMgMQ8S8+AqBIl6kKgHiXqQqAeJepBo/z38J/U0uAHlaBkBl9I4GwAAAABJRU5ErkJggg==");
+    background-repeat: no-repeat;  */
+}
+header {
+    font-family: Eina03, -apple-system, system-ui, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #333;
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 75vh;
+    /* border: 1px solid red;  */
+}
+
+/* div.image {
+    content:url(https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiT4-b6yI_hAhUGbawKHZrrCMYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.evernote.design%2Fpost%2Fdesignbetter%2F&psig=AOvVaw0KRdD-qw9CNDcoRwIhYSUM&ust=1553131786999204);
+    border : solid red;
+ }​ */
+
+h1 {
+    /* border: solid black 2px; */
+    justify-content: center;
+    font-size: 34px;
+}
+h2 {
+    /* border: solid black 2px;  */
+    padding: 10px 250px;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+button {
+    display: inline-block;
+    background: #f80051;
+    color: white;
+    padding: 15px;
+    height: 50px;
+    border-radius: 30px / 30px;
+}
+
+button2 {
+    display: inline-block;
+    border: solid black 1px;
+    background: white;
+    color: black;
+    padding: 15px;
+    height: 15px;
+    border-radius: 50px / 50px;
+}
+
+button3 {
+    display: inline-block;
+    background: black;
+    font: italic;
+    color: white;
+    padding: 15px;
+    height: 15px;
+    /* border-radius: 50px / 50px; */
+}
